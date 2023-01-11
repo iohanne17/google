@@ -1,0 +1,44 @@
+.App {
+  font-family: sans-serif;
+  text-align: center;
+}
+
+.card {
+  color: #333;
+  margin: 0 2rem 2rem 0;
+  padding: 1.5rem;
+  flex: 30%;
+  box-shadow: 0 0 30px 5px rgba(0, 0, 0, 0.1);
+  transition: transfom;
+  transition: all 0.5s;
+  border-radius: 15px;
+  cursor: pointer;
+}
+
+.card:hover {
+  transform: scale(1.1);
+  color: #fff;
+  background-color: #333;
+}
+
+.card-name {
+  font-weight: 800;
+  font-size: 1rem;
+  margin-bottom: 1rem;
+  padding-bottom: 1rem;
+  border-bottom: 1px solid #ddd;
+  text-align: left;
+  text-transform: capitalize;
+}
+
+.card-company {
+  font-weight: 600;
+  font-size: 0.9rem;
+  padding-bottom: 0.5rem;
+  text-align: left;
+  text-transform: capitalize;
+}
+
+.card i {
+  padding-right: 0.5rem;
+}
